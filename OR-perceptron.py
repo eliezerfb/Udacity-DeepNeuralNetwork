@@ -1,15 +1,22 @@
 import pandas as pd
 
+#What are two ways to go from an AND perceptron to an OR perceptron?
+
 # TODO: Set weight1, weight2, and bias
+# Increse weights
+#weight1 = 1
+#weight2 = 1
+#bias = -1
+
+# Or Decrease magnitude of the bias
 weight1 = 0.5 # 1.0
 weight2 = 0.5 # 1.0
-bias = -1  # -2.0
-
+bias = -0.5  # -2.0
 
 # DON'T CHANGE ANYTHING BELOW
 # Inputs and outputs
 test_inputs = [(0, 0), (0, 1), (1, 0), (1, 1)]
-correct_outputs = [False, False, False, True]
+correct_outputs = [False, True, True, True]
 outputs = []
 
 # Generate and check output
