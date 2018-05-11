@@ -107,3 +107,5 @@ ENV/
 .mypy_cache/
 
 mnist.model.best.hdf5
+aug_model.weights.best.hdf5
+dogvgg16.weights.best.hdf5
